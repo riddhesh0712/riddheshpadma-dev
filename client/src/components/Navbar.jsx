@@ -16,19 +16,22 @@ export const Navbar = () => {
                         <div className=''>
                             <ul className='hidden lg:flex justify-around items-center'>
                                 <a href="#home">
-                                    <li className='py-3 px-6 text-sm'>Home</li>
+                                    <li className='py-3 px-6 text-sm hover:text-amber-400 transform ease-in-out duration-500 '>Home</li>
                                 </a>
                                 <a href="#portfolio">
-                                <li className='py-3 px-6 text-sm'>Portfolio</li>
+                                <li className='py-3 px-6 text-sm hover:text-amber-400 transform ease-in-out duration-500'>Portfolio</li>
                                 </a>
                                 <a href="#aboutme">
-                                <li className='py-3 px-6 text-sm'>About Me</li>
+                                <li className='py-3 px-6 text-sm hover:text-amber-400 transform ease-in-out duration-500'>About Me</li>
+                                </a>
+                                <a href="#skills">
+                                <li className='py-3 px-6 text-sm hover:text-amber-400 transform ease-in-out duration-500'>Skills</li>
                                 </a>
                                 <a href="#services">
-                                <li className='py-3 px-6 text-sm'>Services</li>
+                                <li className='py-3 px-6 text-sm hover:text-amber-400 transform ease-in-out duration-500'>Blogs</li>
                                 </a>
                                 <a href="#contact">
-                                <li className='py-3 px-6 text-sm'>Contact</li>
+                                <li className='py-3 px-6 text-sm hover:text-amber-400 transform ease-in-out duration-500'>Contact</li>
                                 </a>
                             </ul>
                         </div>

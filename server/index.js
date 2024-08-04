@@ -13,6 +13,8 @@ const mongoDBUri = "mongodb://localhost:27017/riddheshpadmadev"
 connectDB(mongoDBUri);
 
 app.use(cors());
+
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
